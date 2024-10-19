@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item .active {
+    border-bottom: 3px solid #ce1212;
+    padding-right: 5px;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.collapse ul li {
+    padding-right: 10px;
+}
+
+a .btn:hover {
+    background-color: #fff;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #ce1212;
+}
+
+.nav-link::before {
+    position: absolute;
+    border-bottom: 3px solid #ce1212;
+    height: 2px;
+    width: 0;
+    transition: 0.4s;
+    left: 0;
+    top: 100%;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+.title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #37373f;
+    margin-bottom: 20px;
+    margin-top: 140px;
+}
+
+.parah {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+#icon1 {
+    font-size: 31px;
+    padding-left: 20px;
+}
+
+.about-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50px;
+}
+
+#right {
+    padding-left: 50px;
+}
+
+.box {
+    padding: 20px;
+    background-color: white;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+}
+
+#btn3:hover {
+    background-color: #fff;
+    color: red;
+    transition: 0.6s;
+}
+
+#car:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+@media only screen and (max-width:912) {
+   .cards{
+    width: 22rem;
+   } 
+}
+
+#clients {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+#h4 {
+    border-bottom: 2px solid #b6b6bf;
+    color: #37373f;
+}
+
+#h4:hover {
+    color: #ce1212;
+    border-bottom: 2px solid slategray;
+}
+
+#h3 {
+    border-bottom: 2px solid #ce1212;
+}
+
+#test-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 45px;
+}
+
+#test-img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#img {
+    width: 13%;
+    margin-right: 170px;
+}
+
+#test-col {
+    padding-left: 30px;
+    margin-left: 400px;
+    border-left: 3px solid #ce1212;
+}
+
+#eve-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 48px;
+}
+
+.cardbar {
+    margin-top: 370px;
+}
+
+.card-img {
+    height: 80vh;
+}
+
+.red {
+    width: 90px;
+    border-bottom: 3px solid red;
+}
+
+.carousel-indicators button {
+    border-radius: 50% !important;
+    background: rgb(229, 8, 8) !important;
+    width: 20px !important;
+    height: 1px !important;
+}
+
+.chef-title {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.table-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 50px;
+}
+
+#floatingTextarea {
+    height: 20vh;
+}
+
+.gallery-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 45px;
+}
+
+.contact-title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 45px;
+}
+
+.info-item {
+    border: 2px solid #f4f4f4;
+    background-color: #f4f4f4;
+    height: 120px;
+}
+
+.info-item h3 {
+    color: #6c757d;
+}
+
+#contact-icon {
+    border-radius: 50%;
+    background-color: #ce1212;
+    height: 65px;
+    color: #fff;
+    padding: 15px;
+    padding-top: 17px;
+    width: 65px;
+}
+
+.sec-info {
+    background: #fff;
+    box-shadow: 1px 1px 10px black;
+    padding: 15px;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.bottom-sec {
+    background-color: #1f1f24;
+}
+
+.container hr {
+    color: white;
+}
+
+.owl-item>div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+}
+
+.owl-item.center>div {
+    cursor: auto;
+    margin: 0;
+}
+
+.owl-item:not(.center)>div:hover {
+    opacity: .75;
+}
+
+.owl-item.active.center{
+    border: 5px solid #ce1212;
+}
+
